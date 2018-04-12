@@ -17,7 +17,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
     string repairTurbine;
 
     if (revenueOpportunity > costToFix){
-        repairTurbine = "Yes, required";
+        repairTurbine = "Yes, required !";
     }
     else {
         repairTurbine = "No, not required";
